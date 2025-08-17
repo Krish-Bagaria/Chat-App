@@ -21,7 +21,7 @@ const RightSidebar = () => {
       >
         <div className="pt-10 flex flex-col items-center gap-2 text-xs font-light mx-auto">
           <img
-            src={selectedUser?.profilePic || assets.avatar_icon}
+            src={selectedUser?.profilePic || imagesDummyData.avatar_icon}
             alt=""
             className="w-20 aspect-[1/1] rounded-full"
           />
